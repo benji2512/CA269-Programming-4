@@ -18,6 +18,6 @@ public class SumIt
         
         // prepare the user for the result
         // print out the result (use System.out.println() )
-        System.out.print(n1 + " and " + n2 + " is " + n3);
+        System.out.println(n1 + " and " + n2 + " is " + n3);
     }
 }
