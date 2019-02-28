@@ -1,6 +1,7 @@
 public class Teen{
     public static boolean isTeenager(int age){
-        if (age > 12 && age < 20)
+        boolean isTeenager = age > 12 && age < 20;
+        if (isTeenager)
             return true;
         else
             return false;

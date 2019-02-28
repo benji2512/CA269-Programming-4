@@ -12,7 +12,8 @@ public class WordAllDone{
                 }
             }
         }
-        if(end == word.length()){
+        boolean finish = end == word.length();
+        if(finish){
             return true;
         }else{
             return false;
