@@ -13,10 +13,6 @@ public class WordAllDone{
             }
         }
         boolean finish = end == word.length();
-        if(finish){
-            return true;
-        }else{
-            return false;
-        }
+        return finish;
     }
 }
