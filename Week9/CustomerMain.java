@@ -18,6 +18,8 @@ public class CustomerMain
        System.out.println(donald); // test the toString() method.
 
        System.out.println("\nYour statement:");
-       System.out.print(donald.statement());
+       System.out.println(donald.statement());
+       System.out.println("\nYour statement in HTML format:");
+       System.out.print(donald.htmlStatement());
    }
 }
